@@ -1,0 +1,4 @@
+1. [Install Instructions](https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html)
+2. edit first-network/templates/generate_configuration.sh for `ORG_AMOUNT` and `PEER_PER_ORG` and run to generate the `docker-compole.yaml`, `configtx.yaml`, `crypto-config.yaml and `generate_artifacts.sh`
+3. run `./fabric.sh -m generate` to generate required certificates and genesis block
+4. run `./fabric.sh -m up` to start the network
